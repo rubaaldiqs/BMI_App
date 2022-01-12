@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nmg.bmi_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/log"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BMI_App">
+        <activity
+            android:name="com.example.bmiProject.activtyEditFood"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmiProject.activityListFood"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmiProject.activityAddFood"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmiProject.activityNewRecord"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmiProject.activityHome"
+            android:exported="false" />
+        <activity android:name="com.example.bmiProject.activityCompleteRegiester" />
+        <activity android:name="com.example.bmiProject.activityRegiester" />
+        <activity android:name="com.example.bmiProject.LoginActivity" />
+        <activity android:name="com.example.bmiProject.splashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
